@@ -1,0 +1,8 @@
+{
+  "short_name": "Symphony Crosswords",
+  "name": "Symphony Crosswords",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
