@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/symphony-crosswords/precache-manifest.481815dbc191e368b84b4e20a6ff9f73.js"
+  "/symphony-crosswords/precache-manifest.44f8ab41ed49f85ad63b59da8b45a3fb.js"
 );
 
 self.addEventListener('message', (event) => {
