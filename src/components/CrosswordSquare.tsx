@@ -13,10 +13,10 @@ const CrosswordSquare: FC<CrosswordSquareProps> = ({
 }) => {
   const content = disabled ? '#' : '';
   return (
-    <input type='text' className='crossword-square' />
+    <input type='text' className='crossword-square' maxLength={1} />
+    // TODO: use actual letters from json
     // <div className='crossword-square'>
     //   {content}
-
     // </div>
   );
 };

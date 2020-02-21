@@ -13,7 +13,6 @@ type CrosswordBoardProps = {
 
 const CrosswordBoard: FC<CrosswordBoardProps> = ({ numRows, numCols }) => {
   const grid = getGrid(MockData);
-  console.log(grid);
 
   const crossword = grid.map(row => <CrosswordBoardRow row={row} />);
 
