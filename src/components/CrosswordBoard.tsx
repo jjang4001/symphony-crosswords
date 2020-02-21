@@ -18,7 +18,13 @@ const CrosswordBoard: FC<CrosswordBoardProps> = ({ numRows, numCols }) => {
 
   return (
     <>
-      Hi this is a board of size ({numRows}, {numCols})
+      <br />
+      Type in any square to fill it with a letter. I recommend filling out the
+      disabled squares of the crossword with a '#' or any other special
+      character
+      <br />
+      <br />
+      <br />
       <div className='crossword-grid-container'>{crossword}</div>
     </>
   );
