@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a0c9bde5c58627e6c03015fc95199be",
+    "revision": "4359428604d3119e5f6d31c13889bf3b",
     "url": "/symphony-crosswords/index.html"
   },
   {
-    "revision": "e889ebadec1adca422ec",
+    "revision": "838894382db84e3cc609",
     "url": "/symphony-crosswords/static/css/main.35e107eb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/symphony-crosswords/static/js/2.85107f9d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e889ebadec1adca422ec",
-    "url": "/symphony-crosswords/static/js/main.2c73de87.chunk.js"
+    "revision": "838894382db84e3cc609",
+    "url": "/symphony-crosswords/static/js/main.de33b3b1.chunk.js"
   },
   {
     "revision": "15dbe29c4074f70da98c",
