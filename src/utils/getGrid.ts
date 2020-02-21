@@ -11,10 +11,12 @@ function getGrid(crossword: ICrossword): CrosswordSquareProps[][] {
   const emptyRow = Array.from({ length: numCols }, () =>
     Object.assign({}, defaultSquareState)
   );
-  let grid = Array.from({ length: numRows }, () => emptyRow.slice(0));
+  let grid = Array.from({ length: numRows }, () =>
+    emptyRow.map(sq => Object.assign({}, sq))
+  );
 
   clues.forEach((clue, idx) => {
-    const clueSquares = idx < 3 ? getClueSquares(clue) : [];
+    const clueSquares = getClueSquares(clue);
     grid = fillGridBlanks(grid, clueSquares);
   });
 

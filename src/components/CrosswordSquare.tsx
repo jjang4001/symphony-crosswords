@@ -11,8 +11,14 @@ const CrosswordSquare: FC<CrosswordSquareProps> = ({
   letter,
   numberLabel
 }) => {
-  console.log(disabled, letter, numberLabel);
-  return <div className='crossword-square'>{letter}</div>;
+  const content = disabled ? '#' : '';
+  return (
+    <input type='text' className='crossword-square' />
+    // <div className='crossword-square'>
+    //   {content}
+
+    // </div>
+  );
 };
 
 export default CrosswordSquare;

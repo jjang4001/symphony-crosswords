@@ -2,6 +2,7 @@ import React, { FC } from 'react';
 
 import CrosswordSquare from './CrosswordSquare';
 import getGrid from '../utils/getGrid';
+import CrosswordBoardRow from './CrosswordBoardRow';
 
 import MockData from '../mock-data/20200220.json';
 
@@ -14,26 +15,12 @@ const CrosswordBoard: FC<CrosswordBoardProps> = ({ numRows, numCols }) => {
   const grid = getGrid(MockData);
   console.log(grid);
 
+  const crossword = grid.map(row => <CrosswordBoardRow row={row} />);
+
   return (
     <>
       Hi this is a board of size ({numRows}, {numCols})
-      <div className='crossword-grid-container'>
-        <div className='crossword-board-row'>
-          <div className='crossword-square'>b</div>
-          <div className='crossword-square'>b</div>
-          <div className='crossword-square'>b</div>
-        </div>
-        <div className='crossword-board-row'>
-          <CrosswordSquare disabled={true} letter={'a'} />
-          <CrosswordSquare disabled={true} letter={'a'} />
-          <CrosswordSquare disabled={true} letter={'a'} />
-        </div>
-        <div className='crossword-board-row'>
-          <CrosswordSquare disabled={true} letter={'a'} />
-          <CrosswordSquare disabled={true} letter={'a'} />
-          <CrosswordSquare disabled={true} letter={'a'} />
-        </div>
-      </div>
+      <div className='crossword-grid-container'>{crossword}</div>
     </>
   );
 };
