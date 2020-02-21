@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 
-import { ICrossword } from '../models';
+import CrosswordSquare from './CrosswordSquare';
+import getGrid from '../utils/getGrid';
 
 import MockData from '../mock-data/20200220.json';
 
@@ -10,12 +11,30 @@ type CrosswordBoardProps = {
 };
 
 const CrosswordBoard: FC<CrosswordBoardProps> = ({ numRows, numCols }) => {
-  console.log(MockData);
-  const a: ICrossword = MockData;
+  const grid = getGrid(MockData);
+  console.log(grid);
+
   return (
-    <div>
-      Hi this is the board of size ({numRows}, {numCols})
-    </div>
+    <>
+      Hi this is a board of size ({numRows}, {numCols})
+      <div className='crossword-grid-container'>
+        <div className='crossword-board-row'>
+          <div className='crossword-square'>b</div>
+          <div className='crossword-square'>b</div>
+          <div className='crossword-square'>b</div>
+        </div>
+        <div className='crossword-board-row'>
+          <CrosswordSquare disabled={true} letter={'a'} />
+          <CrosswordSquare disabled={true} letter={'a'} />
+          <CrosswordSquare disabled={true} letter={'a'} />
+        </div>
+        <div className='crossword-board-row'>
+          <CrosswordSquare disabled={true} letter={'a'} />
+          <CrosswordSquare disabled={true} letter={'a'} />
+          <CrosswordSquare disabled={true} letter={'a'} />
+        </div>
+      </div>
+    </>
   );
 };
 
