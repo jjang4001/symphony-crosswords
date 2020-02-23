@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/symphony-crosswords/static/css/main.c1342dce.chunk.css",
-    "main.js": "/symphony-crosswords/static/js/main.234730be.chunk.js",
-    "main.js.map": "/symphony-crosswords/static/js/main.234730be.chunk.js.map",
+    "main.css": "/symphony-crosswords/static/css/main.c379f737.chunk.css",
+    "main.js": "/symphony-crosswords/static/js/main.196b4144.chunk.js",
+    "main.js.map": "/symphony-crosswords/static/js/main.196b4144.chunk.js.map",
     "runtime-main.js": "/symphony-crosswords/static/js/runtime-main.77307df3.js",
     "runtime-main.js.map": "/symphony-crosswords/static/js/runtime-main.77307df3.js.map",
     "static/js/2.4a039487.chunk.js": "/symphony-crosswords/static/js/2.4a039487.chunk.js",
     "static/js/2.4a039487.chunk.js.map": "/symphony-crosswords/static/js/2.4a039487.chunk.js.map",
     "index.html": "/symphony-crosswords/index.html",
-    "precache-manifest.a7069da11fc34e2575a39660dfda873f.js": "/symphony-crosswords/precache-manifest.a7069da11fc34e2575a39660dfda873f.js",
+    "precache-manifest.2bdad2f7237224bfd9447df844bcf394.js": "/symphony-crosswords/precache-manifest.2bdad2f7237224bfd9447df844bcf394.js",
     "service-worker.js": "/symphony-crosswords/service-worker.js",
-    "static/css/main.c1342dce.chunk.css.map": "/symphony-crosswords/static/css/main.c1342dce.chunk.css.map",
+    "static/css/main.c379f737.chunk.css.map": "/symphony-crosswords/static/css/main.c379f737.chunk.css.map",
     "static/js/2.4a039487.chunk.js.LICENSE.txt": "/symphony-crosswords/static/js/2.4a039487.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.77307df3.js",
     "static/js/2.4a039487.chunk.js",
-    "static/css/main.c1342dce.chunk.css",
-    "static/js/main.234730be.chunk.js"
+    "static/css/main.c379f737.chunk.css",
+    "static/js/main.196b4144.chunk.js"
   ]
 }
