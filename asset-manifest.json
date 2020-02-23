@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/symphony-crosswords/static/css/main.698c97f8.chunk.css",
+    "main.css": "/symphony-crosswords/static/css/main.c1342dce.chunk.css",
     "main.js": "/symphony-crosswords/static/js/main.234730be.chunk.js",
     "main.js.map": "/symphony-crosswords/static/js/main.234730be.chunk.js.map",
     "runtime-main.js": "/symphony-crosswords/static/js/runtime-main.77307df3.js",
@@ -8,15 +8,15 @@
     "static/js/2.4a039487.chunk.js": "/symphony-crosswords/static/js/2.4a039487.chunk.js",
     "static/js/2.4a039487.chunk.js.map": "/symphony-crosswords/static/js/2.4a039487.chunk.js.map",
     "index.html": "/symphony-crosswords/index.html",
-    "precache-manifest.b03cb00658b3fdfac59a0f478a5e1aa7.js": "/symphony-crosswords/precache-manifest.b03cb00658b3fdfac59a0f478a5e1aa7.js",
+    "precache-manifest.a7069da11fc34e2575a39660dfda873f.js": "/symphony-crosswords/precache-manifest.a7069da11fc34e2575a39660dfda873f.js",
     "service-worker.js": "/symphony-crosswords/service-worker.js",
-    "static/css/main.698c97f8.chunk.css.map": "/symphony-crosswords/static/css/main.698c97f8.chunk.css.map",
+    "static/css/main.c1342dce.chunk.css.map": "/symphony-crosswords/static/css/main.c1342dce.chunk.css.map",
     "static/js/2.4a039487.chunk.js.LICENSE.txt": "/symphony-crosswords/static/js/2.4a039487.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.77307df3.js",
     "static/js/2.4a039487.chunk.js",
-    "static/css/main.698c97f8.chunk.css",
+    "static/css/main.c1342dce.chunk.css",
     "static/js/main.234730be.chunk.js"
   ]
 }

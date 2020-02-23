@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c05c46fd0bf2c4687d3f2bc7a735a13e",
+    "revision": "d98c60cf311f67c2ae47051107356a33",
     "url": "/symphony-crosswords/index.html"
   },
   {
-    "revision": "f2874144df24de52e187",
-    "url": "/symphony-crosswords/static/css/main.698c97f8.chunk.css"
+    "revision": "dccc3556370cff4069f7",
+    "url": "/symphony-crosswords/static/css/main.c1342dce.chunk.css"
   },
   {
     "revision": "7f63f6c2e48c537ecd7a",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/symphony-crosswords/static/js/2.4a039487.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f2874144df24de52e187",
+    "revision": "dccc3556370cff4069f7",
     "url": "/symphony-crosswords/static/js/main.234730be.chunk.js"
   },
   {
