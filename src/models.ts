@@ -20,3 +20,8 @@ export interface ICrossword {
   numCols: number;
   clues: IClue[];
 }
+
+export type Position = {
+  row: number;
+  col: number;
+};

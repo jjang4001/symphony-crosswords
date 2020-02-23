@@ -1,4 +1,4 @@
-import { ICrossword, IClue, Direction } from '../models';
+import { ICrossword, IClue, Direction, Position } from '../models';
 import { CrosswordSquareProps } from '../components/CrosswordSquare';
 
 function getGrid(crossword: ICrossword): CrosswordSquareProps[][] {
@@ -55,11 +55,6 @@ function getClueSquares(clue: IClue): Position[] {
   }
   return clueSquares;
 }
-
-type Position = {
-  row: number;
-  col: number;
-};
 
 function fillGridBlanks(
   grid: CrosswordSquareProps[][],
