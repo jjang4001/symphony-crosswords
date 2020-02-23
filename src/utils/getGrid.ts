@@ -20,6 +20,10 @@ function getGrid(crossword: ICrossword): CrosswordSquareProps[][] {
     grid = fillGridBlanks(grid, clueSquares);
   });
 
+  clues.forEach(clue => {
+    grid[clue.startRow][clue.startCol].numberLabel = clue.number;
+  });
+
   return grid;
 }
 

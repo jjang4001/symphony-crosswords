@@ -30,6 +30,7 @@ const CrosswordBoardRow: FC<CrosswordBoardRowProps> = ({
       selectedPosition={selectedPosition}
       setSelectedRow={setSelectedRow}
       setSelectedCol={setSelectedCol}
+      numberLabel={square.numberLabel}
     />
   ));
   return <div className='crossword-board-row'>{content}</div>;

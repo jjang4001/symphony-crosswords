@@ -2,10 +2,12 @@ import React, { FC, useState, useCallback } from 'react';
 
 import CrosswordSquare from './CrosswordSquare';
 import getGrid from '../utils/getGrid';
+import getCluesOfType from '../utils/getCluesOfType';
 import CrosswordBoardRow from './CrosswordBoardRow';
-import { Position } from '../models';
+import { Position, Direction } from '../models';
 
 import MockData from '../mock-data/20200220.json';
+import ClueList from './ClueList';
 
 type CrosswordBoardProps = {
   numRows: number;
@@ -39,8 +41,12 @@ function getNextPosition(currentPosition: Position, keyCode: number): Position {
 
 const CrosswordBoard: FC<CrosswordBoardProps> = ({ numRows, numCols }) => {
   const grid = getGrid(MockData);
+  const acrossClues = getCluesOfType(MockData, Direction.ACROSS);
+  const downClues = getCluesOfType(MockData, Direction.DOWN);
   const [selectedRow, setSelectedRow] = useState(0);
   const [selectedCol, setSelectedCol] = useState(0);
+
+  console.log(acrossClues, downClues);
 
   const crossword = grid.map((row, idx) => (
     <CrosswordBoardRow
@@ -81,6 +87,11 @@ const CrosswordBoard: FC<CrosswordBoardProps> = ({ numRows, numCols }) => {
       <div className='crossword-grid-container' onKeyDown={handleKeyDown}>
         {crossword}
       </div>
+      <br />
+      <h4>Across</h4>
+      <ClueList clues={acrossClues} />
+      <h4>Down</h4>
+      <ClueList clues={downClues} />
     </>
   );
 };

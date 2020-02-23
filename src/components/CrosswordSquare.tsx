@@ -75,6 +75,7 @@ const CrosswordSquare: FC<CrosswordSquareProps> = ({
         disabled={disabled}
         onFocus={moveCursorToEnd}
         onClick={handleClick}
+        placeholder={numberLabel ? String(numberLabel) : ''}
       />
     </div>
   );
