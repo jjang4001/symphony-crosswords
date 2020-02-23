@@ -22,3 +22,22 @@
   text-align: center;
   width: 34px;
 }
+
+.crossword-square input {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.square-label {
+  position: absolute;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.square-disabled {
+  background-color: grey;
+}

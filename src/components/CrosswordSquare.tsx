@@ -62,20 +62,24 @@ const CrosswordSquare: FC<CrosswordSquareProps> = ({
   };
 
   return (
-    <div className='float-container'>
+    <div className={'crossword-square'}>
       {/* <label htmlFor='square'>l</label> */}
+      <div className='square-label'>
+        {numberLabel ? String(numberLabel) : ''}
+      </div>
       <input
         id='square'
         type='text'
-        className='crossword-square'
+        // className='crossword-square'
+        className={disabled ? 'square-disabled' : ''}
         maxLength={1}
-        value={character}
+        value={disabled ? '' : character}
         onChange={handleChange}
         ref={inputElement}
         disabled={disabled}
         onFocus={moveCursorToEnd}
         onClick={handleClick}
-        placeholder={numberLabel ? String(numberLabel) : ''}
+        // placeholder={numberLabel ? String(numberLabel) : ''}
       />
     </div>
   );
