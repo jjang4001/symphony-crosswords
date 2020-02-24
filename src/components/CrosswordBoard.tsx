@@ -75,9 +75,7 @@ const CrosswordBoard: FC<CrosswordBoardProps> = ({ numRows, numCols }) => {
   return (
     <>
       <br />
-      Type in any square to fill it with a letter. I recommend filling out the
-      disabled squares of the crossword with a '#' or any other special
-      character.
+      Use the arrow keys to move squares
       <br />
       <br />
       Also, sorry that backspacing on the squares is weird

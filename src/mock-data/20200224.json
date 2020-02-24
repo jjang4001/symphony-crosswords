@@ -1,0 +1,708 @@
+{
+  "numRows": 15,
+  "numCols": 15,
+  "clues": [
+    {
+      "number": 1,
+      "description": "Like show horses' hooves",
+      "startRow": 0,
+      "startCol": 0,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 5,
+      "description": "Twisted person",
+      "startRow": 0,
+      "startCol": 5,
+      "direction": "ACROSS",
+      "length": 5,
+      "answer": ""
+    },
+    {
+      "number": 10,
+      "description": "___ constrictor",
+      "startRow": 0,
+      "startCol": 12,
+      "direction": "ACROSS",
+      "length": 3,
+      "answer": ""
+    },
+    {
+      "number": 13,
+      "description": "One of the 12 tribes of Israel",
+      "startRow": 1,
+      "startCol": 0,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": "oleg"
+    },
+    {
+      "number": 14,
+      "description": "At full speed, in nautical lingo",
+      "startRow": 1,
+      "startCol": 5,
+      "direction": "ACROSS",
+      "length": 5,
+      "answer": ""
+    },
+    {
+      "number": 15,
+      "description": "Back of a horse",
+      "startRow": 1,
+      "startCol": 11,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 16,
+      "description": "Persia, nowadays",
+      "startRow": 2,
+      "startCol": 0,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 17,
+      "description": "Jules who wrote \"Journey to the Center of the Earth\"",
+      "startRow": 2,
+      "startCol": 5,
+      "direction": "ACROSS",
+      "length": 5,
+      "answer": ""
+    },
+    {
+      "number": 18,
+      "description": "Mars' counterpart, in Greek myth",
+      "startRow": 2,
+      "startCol": 11,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 19,
+      "description": "Cop's canine companion",
+      "startRow": 3,
+      "startCol": 0,
+      "direction": "ACROSS",
+      "length": 9,
+      "answer": ""
+    },
+    {
+      "number": 21,
+      "description": "What a door swings on",
+      "startRow": 3,
+      "startCol": 10,
+      "direction": "ACROSS",
+      "length": 5,
+      "answer": ""
+    },
+    {
+      "number": 22,
+      "description": "Where many draftees were sent in the '60s",
+      "startRow": 4,
+      "startCol": 3,
+      "direction": "ACROSS",
+      "length": 3,
+      "answer": ""
+    },
+    {
+      "number": 23,
+      "description": "Workers with a daily grind?",
+      "startRow": 4,
+      "startCol": 7,
+      "direction": "ACROSS",
+      "length": 8,
+      "answer": ""
+    },
+    {
+      "number": 25,
+      "description": "Opposite of a purebred",
+      "startRow": 5,
+      "startCol": 0,
+      "direction": "ACROSS",
+      "length": 7,
+      "answer": ""
+    },
+    {
+      "number": 29,
+      "description": "Sets of points, in math",
+      "startRow": 5,
+      "startCol": 8,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 30,
+      "description": "W.W. II German sub",
+      "startRow": 6,
+      "startCol": 0,
+      "direction": "ACROSS",
+      "length": 5,
+      "answer": ""
+    },
+    {
+      "number": 31,
+      "description": "Failing grades",
+      "startRow": 6,
+      "startCol": 6,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 33,
+      "description": "Crosby, Stills, ___ & Young",
+      "startRow": 6,
+      "startCol": 11,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": "salut"
+    },
+    {
+      "number": 37,
+      "description": "Where roots take hold",
+      "startRow": 7,
+      "startCol": 0,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 38,
+      "description": "Ancient Greek meeting place",
+      "startRow": 7,
+      "startCol": 5,
+      "direction": "ACROSS",
+      "length": 5,
+      "answer": ""
+    },
+    {
+      "number": 39,
+      "description": "Arts-and-crafts supply",
+      "startRow": 7,
+      "startCol": 11,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 40,
+      "description": "Menial worker",
+      "startRow": 8,
+      "startCol": 0,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 41,
+      "description": "Wise one",
+      "startRow": 8,
+      "startCol": 5,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 42,
+      "description": "Unmitigated",
+      "startRow": 8,
+      "startCol": 10,
+      "direction": "ACROSS",
+      "length": 5,
+      "answer": ""
+    },
+    {
+      "number": 43,
+      "description": "MAke turbulent",
+      "startRow": 9,
+      "startCol": 3,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 45,
+      "description": "Toss back tequila, perhaps",
+      "startRow": 9,
+      "startCol": 8,
+      "direction": "ACROSS",
+      "length": 7,
+      "answer": ""
+    },
+    {
+      "number": 47,
+      "description": "Direct clashes",
+      "startRow": 10,
+      "startCol": 0,
+      "direction": "ACROSS",
+      "length": 8,
+      "answer": ""
+    },
+    {
+      "number": 51,
+      "description": "Like the hours shortly after midnight",
+      "startRow": 10,
+      "startCol": 9,
+      "direction": "ACROSS",
+      "length": 3,
+      "answer": ""
+    },
+    {
+      "number": 52,
+      "description": "Swimming (in)",
+      "startRow": 11,
+      "startCol": 0,
+      "direction": "ACROSS",
+      "length": 5,
+      "answer": ""
+    },
+    {
+      "number": 53,
+      "description": "Starts shooting",
+      "startRow": 11,
+      "startCol": 6,
+      "direction": "ACROSS",
+      "length": 9,
+      "answer": ""
+    },
+    {
+      "number": 58,
+      "description": "Antidrug agent, informally",
+      "startRow": 12,
+      "startCol": 0,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 59,
+      "description": "What a pet may be transported in",
+      "startRow": 12,
+      "startCol": 5,
+      "direction": "ACROSS",
+      "length": 5,
+      "answer": ""
+    },
+    {
+      "number": 60,
+      "description": "Weaving machine",
+      "startRow": 12,
+      "startCol": 11,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 61,
+      "description": "Device for recording shows",
+      "startRow": 13,
+      "startCol": 0,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 62,
+      "description": "Many a waiter around Hollywood",
+      "startRow": 13,
+      "startCol": 5,
+      "direction": "ACROSS",
+      "length": 5,
+      "answer": ""
+    },
+    {
+      "number": 63,
+      "description": "Tiny bit",
+      "startRow": 13,
+      "startCol": 11,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 64,
+      "description": "Consumed",
+      "startRow": 14,
+      "startCol": 0,
+      "direction": "ACROSS",
+      "length": 3,
+      "answer": ""
+    },
+    {
+      "number": 65,
+      "description": "Ones anxious to take driver's ed, typically",
+      "startRow": 14,
+      "startCol": 5,
+      "direction": "ACROSS",
+      "length": 5,
+      "answer": ""
+    },
+    {
+      "number": 66,
+      "description": "Like venison that's been sitting awhile",
+      "startRow": 14,
+      "startCol": 11,
+      "direction": "ACROSS",
+      "length": 4,
+      "answer": ""
+    },
+    {
+      "number": 1,
+      "description": "Fits",
+      "startRow": 0,
+      "startCol": 0,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "bouts"
+    },
+    {
+      "number": 2,
+      "description": "___ dog",
+      "startRow": 0,
+      "startCol": 1,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "alpha"
+    },
+    {
+      "number": 3,
+      "description": "Subleased",
+      "startRow": 0,
+      "startCol": 2,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "relet"
+    },
+    {
+      "number": 4,
+      "description": "Where the Ko'olau Range is located",
+      "startRow": 0,
+      "startCol": 5,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "oahu"
+    },
+    {
+      "number": 5,
+      "description": "Busy day, in retrospect",
+      "startRow": 0,
+      "startCol": 6,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "blur"
+    },
+    {
+      "number": 6,
+      "description": "\"___ that something\"",
+      "startRow": 0,
+      "startCol": 7,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "aint"
+    },
+    {
+      "number": 7,
+      "description": "Speed measure",
+      "startRow": 0,
+      "startCol": 8,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "mach"
+    },
+    {
+      "number": 8,
+      "description": "He beat connors in the Winbledon final in 1975",
+      "startRow": 0,
+      "startCol": 9,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "ashe"
+    },
+    {
+      "number": 9,
+      "description": "Oscar-nominated actor with nearly synonymous first and last names",
+      "startRow": 0,
+      "startCol": 11,
+      "direction": "DOWN",
+      "length": 7,
+      "answer": "riptorn"
+    },
+    {
+      "number": 10,
+      "description": "Spike Lee film set at a historically black college",
+      "startRow": 0,
+      "startCol": 12,
+      "direction": "DOWN",
+      "length": 9,
+      "answer": "sch8ldaze"
+    },
+    {
+      "number": 1,
+      "description": "Notch shape",
+      "startRow": 0,
+      "startCol": 13,
+      "direction": "DOWN",
+      "length": 3,
+      "answer": "vee"
+    },
+    {
+      "number": 12,
+      "description": "Support for a religious group?",
+      "startRow": 0,
+      "startCol": 14,
+      "direction": "DOWN",
+      "length": 3,
+      "answer": "pew"
+    },
+    {
+      "number": 14,
+      "description": "Flub",
+      "startRow": 1,
+      "startCol": 3,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "g8fup"
+    },
+    {
+      "number": 21,
+      "description": "Hawaiian Food Fish",
+      "startRow": 3,
+      "startCol": 4,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "opah"
+    },
+    {
+      "number": 22,
+      "description": "Cross",
+      "startRow": 3,
+      "startCol": 10,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "span"
+    },
+    {
+      "number": 25,
+      "description": "Actress Lindsay of \"Mean Girls\"",
+      "startRow": 4,
+      "startCol": 13,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "lohan"
+    },
+    {
+      "number": 26,
+      "description": "Is nosy",
+      "startRow": 4,
+      "startCol": 14,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "sn8ps"
+    },
+    {
+      "number": 28,
+      "description": "\"We can't joke about that yet?\"",
+      "startRow": 5,
+      "startCol": 5,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "t8s8n"
+    },
+    {
+      "number": 29,
+      "description": "Golfer's obstacle",
+      "startRow": 5,
+      "startCol": 6,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "trap"
+    },
+    {
+      "number": 30,
+      "description": "Nation of ___",
+      "startRow": 5,
+      "startCol": 7,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "islam"
+    },
+    {
+      "number": 31,
+      "description": "Actress Annie of \"Young Sheldon\"",
+      "startRow": 5,
+      "startCol": 9,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "potts"
+    },
+    {
+      "number": 32,
+      "description": "Pockets of middle east?",
+      "startRow": 6,
+      "startCol": 0,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "pitas"
+    },
+    {
+      "number": 33,
+      "description": "Grilled, at a tacqueria",
+      "startRow": 6,
+      "startCol": 1,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "asada"
+    },
+    {
+      "number": 34,
+      "description": "Eddies",
+      "startRow": 6,
+      "startCol": 2,
+      "direction": "DOWN",
+      "length": 9,
+      "answer": "whirlp8ls"
+    },
+    {
+      "number": 36,
+      "description": "Expert",
+      "startRow": 6,
+      "startCol": 8,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "guru"
+    },
+    {
+      "number": 41,
+      "description": "Gather dust",
+      "startRow": 8,
+      "startCol": 3,
+      "direction": "DOWN",
+      "length": 7,
+      "answer": "lieidle"
+    },
+    {
+      "number": 42,
+      "description": "Hearts or spades",
+      "startRow": 8,
+      "startCol": 4,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "game"
+    },
+    {
+      "number": 43,
+      "description": "Cry of surprise",
+      "startRow": 8,
+      "startCol": 10,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "yipe"
+    },
+    {
+      "number": 47,
+      "description": "Hit it off",
+      "startRow": 9,
+      "startCol": 11,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "click"
+    },
+    {
+      "number": 50,
+      "description": "People eaters",
+      "startRow": 10,
+      "startCol": 12,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "ogres"
+    },
+    {
+      "number": 51,
+      "description": "Oprah's \"The Color Purple\" co-star",
+      "startRow": 10,
+      "startCol": 13,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "wh8pi"
+    },
+    {
+      "number": 52,
+      "description": "Word after New York or Las Vegas",
+      "startRow": 10,
+      "startCol": 14,
+      "direction": "DOWN",
+      "length": 5,
+      "answer": "strip"
+    },
+    {
+      "number": 54,
+      "description": "Spot to lay anchor",
+      "startRow": 11,
+      "startCol": 5,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "cove"
+    },
+    {
+      "number": 55,
+      "description": "Blyton who wrote \"The Enchanted Wood\"",
+      "startRow": 11,
+      "startCol": 6,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "enid"
+    },
+    {
+      "number": 56,
+      "description": "Stuffing ingredient",
+      "startRow": 11,
+      "startCol": 7,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "sage"
+    },
+    {
+      "number": 57,
+      "description": "For whom Wednesday is named",
+      "startRow": 11,
+      "startCol": 8,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "odin"
+    },
+    {
+      "number": 58,
+      "description": "Tricks",
+      "startRow": 11,
+      "startCol": 9,
+      "direction": "DOWN",
+      "length": 4,
+      "answer": "f8ls"
+    },
+    {
+      "number": 59,
+      "description": "Sports org. with the New York Guardians and Seattle Dragons",
+      "startRow": 12,
+      "startCol": 0,
+      "direction": "DOWN",
+      "length": 3,
+      "answer": "xfl"
+    },
+    {
+      "number": 60,
+      "description": "Brazil's ___ Roosevelt",
+      "startRow": 12,
+      "startCol": 1,
+      "direction": "DOWN",
+      "length": 3,
+      "answer": "rio"
+    }
+  ]
+}

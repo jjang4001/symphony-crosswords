@@ -16,8 +16,8 @@
   font-weight: bold;
   line-height: 34px;
   height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
+  /* margin-right: -1px;
+  margin-top: -1px; */
   padding: 0;
   text-align: center;
   width: 34px;
@@ -39,5 +39,5 @@
 }
 
 .square-disabled {
-  background-color: grey;
+  background-color: #3b3b3b;
 }
