@@ -27,7 +27,6 @@ jobs:
         --header 'accept: application/json, text/plain, */*' \
         --header 'nyt-s: $TOKEN' \
         --header 'sec-fetch-dest: empty' \
-        --header 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36' \
         --header 'origin: https://www.nytimes.com' \
         --header 'sec-fetch-site: cross-site' \
         --header 'sec-fetch-mode: cors' \
