@@ -22,7 +22,7 @@ jobs:
         TOKEN: ${{ secrets.session }}
       run: |
         lastPuzzle=$(cat num)
-        curl --location --request GET 'https://www.nytimes.com/svc/crosswords/v2/puzzle/$(lastPuzzle.pdf)' \
+        curl --location --request GET 'https://www.nytimes.com/svc/crosswords/v2/puzzle/$(lastPuzzle)' \
         --header 'authority: nyt-games-prd.appspot.com' \
         --header 'accept: application/json, text/plain, */*' \
         --header 'nyt-s: $(TOKEN)' \
