@@ -23,7 +23,7 @@ jobs:
         mkdir -p puzzles
         cd puzzles
         
-        url=https://www.nytimes.com/svc/crosswords/v2/puzzle/$(lastPuzzle).pdf
+        url='https://www.nytimes.com/svc/crosswords/v2/puzzle/$lastPuzzle.pdf'
         echo $url
         
         curl --location --request GET 'https://www.nytimes.com/svc/crosswords/v2/puzzle/$(lastPuzzle).pdf' \
