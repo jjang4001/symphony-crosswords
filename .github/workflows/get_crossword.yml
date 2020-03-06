@@ -22,10 +22,10 @@ jobs:
         TOKEN: ${{ secrets.session }}
       run: |
         lastPuzzle=$(cat num)
-        curl --location --request GET 'https://www.nytimes.com/svc/crosswords/v2/puzzle/$lastPuzzle.pdf' \
+        curl --location --request GET 'https://www.nytimes.com/svc/crosswords/v2/puzzle/$(lastPuzzle.pdf)' \
         --header 'authority: nyt-games-prd.appspot.com' \
         --header 'accept: application/json, text/plain, */*' \
-        --header 'nyt-s: $TOKEN' \
+        --header 'nyt-s: $(TOKEN)' \
         --header 'sec-fetch-dest: empty' \
         --header 'origin: https://www.nytimes.com' \
         --header 'sec-fetch-site: cross-site' \
@@ -33,20 +33,20 @@ jobs:
         --header 'referer: https://www.nytimes.com/crosswords/game/daily/2020/03/06' \
         --header 'accept-language: en-US,en;q=0.9' \
         -o $lastPuzzle.pdf
-        echo $TOKEN
+        cat $lastPuzzle.pdf
         
-    - name: "Configure git"
-      run: |
-        # Tell git who we are.
-        git config --global user.name "github-actions"
-        git config --global user.email "github-actions@users.noreply.github.com"
+#     - name: "Configure git"
+#       run: |
+#         # Tell git who we are.
+#         git config --global user.name "github-actions"
+#         git config --global user.email "github-actions@users.noreply.github.com"
         
-    - name: "Add, commit and push changes"
-      run: |
-        git add .
-        lastPuzzle=$(cat num)
-        echo $lastPuzzle
-        git commit -m "saving $lastPuzzle to repo"
+#     - name: "Add, commit and push changes"
+#       run: |
+#         git add .
+#         lastPuzzle=$(cat num)
+#         echo $lastPuzzle
+#         git commit -m "saving $lastPuzzle to repo"
     
 #     - name: GitHub Push
 #       uses: ad-m/github-push-action@v0.5.0
