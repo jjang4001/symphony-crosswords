@@ -25,7 +25,7 @@ jobs:
         curl --location --request GET 'https://www.nytimes.com/svc/crosswords/v2/puzzle/17888.pdf' \
         --header 'authority: nyt-games-prd.appspot.com' \
         --header 'accept: application/json, text/plain, */*' \
-        --header 'nyt-s: $(TOKEN)' \
+        --header 'nyt-s: 1EImRQBepkJ29q2KATfsFdnmBF/G1tddrChBQMi/UivYNnkeD59mNAKe4AJYOLZ43LjOoea6bgYnQKF/qeT2al4Z7tCfMJG9Ni1nwV9WxD8SLIovCoPansQD8Aa6xs01rZe6vvj8cyDo40' \
         --header 'sec-fetch-dest: empty' \
         --header 'origin: https://www.nytimes.com' \
         --header 'sec-fetch-site: cross-site' \
