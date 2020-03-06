@@ -35,3 +35,22 @@ jobs:
         --header 'accept-language: en-US,en;q=0.9' \
         -o $lastPuzzle.pdf
         
+    - name: "Configure git"
+      run: |
+        # Tell git who we are.
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@users.noreply.github.com"
+        
+    - name: "Add, commit and push changes"
+      run: |
+        git add .
+        lastPuzzle=$(cat num)
+        echo $lastPuzzle
+        git commit -m "saving $lastPuzzle to repo"
+    
+    - name: GitHub Push
+      uses: ad-m/github-push-action@v0.5.0
+      with:
+        # Token for the repo. Can be passed in using $\{{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        
