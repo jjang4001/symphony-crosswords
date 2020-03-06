@@ -17,10 +17,8 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - name: Get Last Puzzle
-      run: |
-        lastPuzzle=$(cat num)
-
     - name: Curl Pdf
       run: |
+        lastPuzzle=$(cat num)
         echo $lastPuzzle
+        
