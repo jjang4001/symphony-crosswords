@@ -1,9 +1,9 @@
 name: Get Crossword
 
 on:
-  push:
-    branches:
-      - master
+#   push:
+#     branches:
+#       - master
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '0 8 * * *'
